@@ -63,19 +63,22 @@ export default function Header({ companies, selectedSymbol, onSelect }) {
     >
       {/* Left: Logo + brand */}
       <div className="flex items-center gap-3">
-        <div
-          className="flex items-center justify-center"
-          style={{
-            width: 36,
-            height: 36,
-            borderRadius: '50%',
-            background: 'linear-gradient(135deg, #8B5CF6 0%, #14B8A6 100%)',
-            color: 'white',
-            fontWeight: 700,
-            fontSize: 14
-          }}
-        >
-          SS
+        <div className="relative shadow-lg rounded-xl flex-shrink-0" style={{ width: 40, height: 40 }}>
+          <div className="absolute inset-0 bg-gradient-to-br from-purple-600 to-teal-400 rounded-xl blur opacity-40"></div>
+          <svg className="relative z-10 drop-shadow-md" width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="100" height="100" rx="24" fill="url(#logo-grad)"/>
+            <path d="M25 70 L 45 40 L 60 55 L 75 30" stroke="white" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M75 30 V 50 M 75 30 H 55" stroke="white" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round"/>
+            <circle cx="45" cy="40" r="8" fill="#34D399"/>
+            <circle cx="60" cy="55" r="8" fill="#F43F5E"/>
+            <circle cx="25" cy="70" r="8" fill="#FBBF24"/>
+            <defs>
+              <linearGradient id="logo-grad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#8B5CF6"/>
+                <stop offset="1" stopColor="#14B8A6"/>
+              </linearGradient>
+            </defs>
+          </svg>
         </div>
         <div className="flex flex-col leading-tight">
           <span style={{ fontSize: 18, fontWeight: 700, color: '#F1F5F9' }}>
