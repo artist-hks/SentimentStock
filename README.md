@@ -1,6 +1,10 @@
 # SentimentStock — NSE Hinglish Sentiment Analyzer
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Online-success?style=for-the-badge&logo=vercel)](https://sentiment-stock-hks.vercel.app/)
+
 A portfolio-grade **React + Vite** single-page application that simulates a Bloomberg-Terminal-style dashboard for **NSE/BSE stock movement prediction** powered by a **Hinglish (Hindi + English mixed) financial sentiment** NLP engine.
+
+**🌐 Live Application:** [https://sentiment-stock-hks.vercel.app/](https://sentiment-stock-hks.vercel.app/)
 
 > Screenshot: SentimentStock Dashboard
 
