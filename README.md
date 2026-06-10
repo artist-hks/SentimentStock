@@ -4,7 +4,7 @@
 
 A portfolio-grade **React + Vite** single-page application that simulates a Bloomberg-Terminal-style dashboard for **NSE/BSE stock movement prediction** powered by a **Hinglish (Hindi + English mixed) financial sentiment** NLP engine.
 
-**🌐 Live Application:** [https://sentiment-stock-hks.vercel.app/](https://sentiment-stock-hks.vercel.app/)
+**🌐 Live Application:** [https://sentiment-stock-hks.vercel.app/](https://sentiment-stock-hks.vercel.app)
 
 > Screenshot: SentimentStock Dashboard
 
